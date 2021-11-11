@@ -11,7 +11,6 @@ AppBar sharedAppBar(BuildContext context, String title, {Color backgroundColor, 
     backgroundColor: backgroundColor,
     title: Text(
       title,
-      style: Theme.of(context).textTheme.title.copyWith(color: textColor),
     ),
   );
 }
